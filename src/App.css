@@ -1,0 +1,11 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.teal.year_exp.white-text{
+  padding-left: inherit;
+}
+.flex-container {
+  display: flex;
+}
