@@ -1,6 +1,7 @@
 import React from "react";
 import imggt from './images/GT.png'
 import imgr from './images/Resum.png'
+import imgdv from './images/DeluxeV.png'
 export default function Fportfolios() {
     return (
         
@@ -42,15 +43,15 @@ export default function Fportfolios() {
 
                 <div class="card" style={{width: "30%"}}>
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src={imgr} alt="ima"/>
+                        <img class="activator" src={imgdv} alt="ima"/>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="/">This is a link</a></p>
+                        <span class="card-title activator grey-text text-darken-4">deluxe-voyages Site<i class="material-icons right">more_vert</i></span>
+                        <p><a href="https://deluxe-voyages.business.site/">Site Web</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <span class="card-title grey-text text-darken-4">deluxe-voyages Site<i class="material-icons right">close</i></span>
+                        <p>Version 1.0 Developer avec Joomla.</p>
                     </div>
                 </div>
             </div>
