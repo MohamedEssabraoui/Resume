@@ -1,5 +1,6 @@
 import React from "react";
-import imgd from '../../../images/person1.jpg'
+import imggt from './images/GT.png'
+import imgr from './images/Resum.png'
 export default function Fportfolios() {
     return (
         
@@ -13,35 +14,35 @@ export default function Fportfolios() {
             <div class="flex-container">
                 <div class="card" style={{width: "30%"}}>
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src={imgd} alt="ima"/>
+                        <img class="activator" src={imggt} alt="ima"/>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="/">This is a link</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Global Warming Project<i class="material-icons right">more_vert</i></span>
+                        <p><a href="https://globaltemperature.herokuapp.com/" target="_blank" rel="noopener noreferrer">Site Web</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <span class="card-title grey-text text-darken-4">Réchauffement Climatique<i class="material-icons right">close</i></span>
+                        <p>Data science sur le réchauffement climatique dans le cadre d'un projet de fin d'études</p>
                     </div>
                 </div>
 
                 <div class="card" style={{width: "30%"}}>
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src={imgd} alt="ima"/>
+                        <img class="activator" src={imgr} alt="ima"/>
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="/">This is a link</a></p>
+                        <span class="card-title activator grey-text text-darken-4">Curriculum Vitæ<i class="material-icons right">more_vert</i></span>
+                        <p><a href="https://resumeessabraoui.herokuapp.com/" target="_blank" rel="noopener noreferrer">Site Web</a></p>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-                        <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        <span class="card-title grey-text text-darken-4">CV<i class="material-icons right">close</i></span>
+                        <p>Il s'agit en général du parcours scolaire et/ou professionnel</p>
                     </div>
                 </div>
 
                 <div class="card" style={{width: "30%"}}>
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src={imgd} alt="ima"/>
+                        <img class="activator" src={imgr} alt="ima"/>
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
